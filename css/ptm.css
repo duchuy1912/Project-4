@@ -1,0 +1,45 @@
+/* pc  */
+@media (min-width:1024px) {
+
+}
+/* table  */
+@media (min-width:740px) and (max-width:1024px){
+    .about__img img {
+        display: none;
+    }
+    .about__item {
+        width: 100%;
+        text-align: justify;
+        max-width: none;
+    }
+    .nemu__img img {
+        display: none;
+    }
+    .nemu__item {
+        width: 100%;
+        padding: 13px 84px;
+    }
+    #contact {
+        padding: 10px 10px;
+    }
+}
+/* mobile  */
+@media (max-width : 740px) {
+    .heading__option {
+        display: none;
+
+    }
+    .about__img img {
+        display: none;
+    }
+    .about__item {
+        width: 100%;
+        text-align: justify;
+    }
+    .nemu__img img {
+        display: none;
+    }
+    #contact {
+        padding: 10px 10px;
+    }
+}

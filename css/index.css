@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    /* min-height: 5000px; */
+    scroll-behavior:smooth;
+}
+/* heading  */
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0.3px 1px 12px;;
+    position: fixed;
+    z-index: 10;
+}
+
+.heading__title {
+
+}
+.heading--font {
+    margin: 15px;
+    line-height: 55px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 15px;
+    letter-spacing: 3px;
+}
+.heading--font:hover {
+    background-color: #ccc;
+}
+.heading__option {
+
+}
+
+/* le  */
+#le {
+    background: url(/css/img/hamburger.jpg) top center / cover no-repeat ;
+    padding-top: 50%;
+    margin: 0 40px;
+    
+}
+
+.le__img img {
+    
+}
+.le__item p {
+    padding: 11px;
+    font-size: 44px;
+    opacity: 0.6;
+}
+
+/* about  */
+#about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    padding-top: 100px;
+}
+.about__img {
+    opacity: 0.8;
+}
+.about__item {
+    max-width: 500px;
+    margin: 5px 31px;
+    font-size: 18px;
+}
+
+.about__item-one {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.about__item-two {
+    font-size: 21px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 10px 0;
+}
+.about__item-three {
+    margin: 18px 0;
+    opacity: 0.9;
+    line-height: 26px;
+}
+.about__item-four {
+    margin: 18px 0;
+    opacity: 0.7;
+    line-height: 26px;
+
+}
+
+/* nemu  */
+#nemu {
+    display: flex;
+    justify-content: center;
+    padding: 100px 16px;
+}
+.nemu__item {
+    padding: 12px 24px;
+    line-height: 50px;
+}
+.nemu__item-one {
+    text-align: center;
+    font-size: 55px;
+    padding: 10px 0;
+}
+.nemu__item-two {
+    margin: 10px 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.nemu__item-sud-two {
+    font-size: 15px;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+.nemu__img img {
+    opacity: 0.85;
+}
+
+/* contact  */
+#contact {
+    padding: 120px 100px;
+    line-height: 45px;
+}
+.contact__item {
+
+}
+.contact__item-one {
+    font-size: 40px;
+    letter-spacing: 8px;
+    margin: 10px 0;
+}
+.contact__item-two {
+    font-size: 17px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+.contact__item-three {
+    font-size: 18px;
+    color: #29902d;
+}
+.contact__item-four {
+    font-size: 15px;
+    margin: 15px 0;    
+    letter-spacing: 1px;                                                                                             
+}
+
+.contact__input {
+    
+}
+
+.contact__input-zero {
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.contact__input-one {
+
+}
+.contact__input-two {
+
+}
+.contact__input-three {
+
+}
+.contact__input-four {
+
+}
+
+.contact__buttom {
+
+}
+.contact__buttom-one {
+    width: 125px;
+    height: 50px;
+    border: none;
+}
+.contact__buttom-one:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* end  */
+#end {
+    width: 100%;
+    height: 120px;
+    background-color: #ccc;
+}
+.end-one {
+    text-align: center;
+    line-height: 120px;
+}
